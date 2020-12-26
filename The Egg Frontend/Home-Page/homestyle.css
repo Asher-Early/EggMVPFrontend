@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  background-image: url("../images/Background.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+/* Navigation */
+
+.nav-container {
+  height: 15vh;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.logo {
+  width: 11vw;
+}
+
+/* Contact Us */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+  color: #2e9a9a;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
+}
+/*End Navigation */
+
+/* Hero */
+.hero-container {
+  height: 33vh;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 33vh;
+}
+/* End Hero */
+
+/* Form */
+.form-container {
+  height: 50vh;
+  align-items: center;
+}
+
+.forms {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 32vh;
+  background: #f4f0db;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 137.5px;
+}
+
+.startup-info,
+.student-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.for-startups {
+  color: #2e9a9a;
+  margin-bottom: 1vh;
+}
+.for-students {
+  color: #ffcc00;
+  margin-bottom: 1vh;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  align-self: center;
+}
+
+p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+/* Button Styling*/
+input[type="submit"] {
+  padding: 13px 3vw;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: black;
+  border-radius: 20px;
+  border: none;
+
+  width: 15vw;
+  height: 4.5vh;
+  margin-top: 20px;
+  margin-left: 3.5vw;
+  margin-right: 3.5vw;
+}
+
+input[type="email"] {
+  background-color: #ffffff;
+  border-radius: 4px;
+  height: 4.5vh;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  border: none;
+  color: #000000;
+  width: 22vw;
+  margin-top: 2vh;
+  transition: all ease 0.3s;
+}
+
+input[type="email"]:focus {
+  background-color: #f0f0f0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.submit-startup {
+  background: #b4e0e0;
+  transition: all 0.3s ease;
+}
+
+.submit-startup:hover {
+  background: #2e9a9a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.submit-student {
+  background: #ffe47a;
+  transition: all 0.3s ease;
+}
+
+.submit-student:hover {
+  background: #ffcc00;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* End Form*/
